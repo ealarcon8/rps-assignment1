@@ -9,9 +9,9 @@
 
 # ASK FOR USER INPUT
 
-u = INPUT("Please choose one of the following: 'Rock', 'Paper', or 'Scissors': ")
+u = input("Please choose one of the following: 'Rock', 'Paper', or 'Scissors': ")
 
-print (u)
+print ("User chose:", u)
 
 
 # VALIDATIONS
