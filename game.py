@@ -16,6 +16,8 @@ print ("User chose:", u)
 
 # VALIDATIONS
 
+###ensure valid choices are stored in list datatype
+### arr = ["Rock", "rock", "ROCK", "Paper", "paper", "PAPER", "Scissors", "scissors", "SCISSORS"] 
 
 
 # COMPUTER CHOICE
