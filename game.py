@@ -11,17 +11,17 @@
 player_name = input("Welcome to the game! What is your preferred name?")
 
 #I'm printing blank lines so the output is easier to read.
-print ()
+print()
 
 print ("Hi,", player_name, "Good luck!")
 
-print ()
+print()
 
 # ASK FOR USER INPUT
 
 user_input = input("Please choose one of the following: 'Rock', 'Paper', or 'Scissors': ")
 
-print ()
+print()
 
 # VALIDATIONS
 
