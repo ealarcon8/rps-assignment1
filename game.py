@@ -6,6 +6,11 @@
 # ... https://github.com/prof-rossetti/intro-to-python/blob/main/exercises/rock-paper-scissors/README.md
 #
 
+#INTRODUCTION
+
+player_name = input("Welcome to the game! What is your preferred name?")
+
+print ("Hi,", player_name, "Good luck!")
 
 # ASK FOR USER INPUT
 
@@ -58,8 +63,9 @@ print("COMPUTER CHOSE:", computer_choice)
 
 # DETERMINE THE WINNER
 
+#if user_input == computer_choice:
+       # print ("Both players chose", user_input, "You both win!")
 
-
-## Use Eugenie's code from Slack or Brandon's code from Slack (For BRandon's start with "result=none")
+       
 
 # FINAL RESULTS
