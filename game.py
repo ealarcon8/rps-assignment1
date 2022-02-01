@@ -69,7 +69,6 @@ print ()
 
 if user_input == computer_choice:
     print ("Both players chose", user_input, "You both win!")
-    quit()
 
 elif user_input == "rock":
     if computer_choice == "scissors":
