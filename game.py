@@ -10,15 +10,18 @@
 
 player_name = input("Welcome to the game! What is your preferred name?")
 
+#I'm printing blank lines so the output is easier to read.
+print ()
+
 print ("Hi,", player_name, "Good luck!")
+
+print ()
 
 # ASK FOR USER INPUT
 
 user_input = input("Please choose one of the following: 'Rock', 'Paper', or 'Scissors': ")
 
-# move after validation
-# print ("User chose:", u)
-
+print ()
 
 # VALIDATIONS
 
@@ -60,12 +63,35 @@ computer_choice=random.choice(options)
 
 print("COMPUTER CHOSE:", computer_choice)
 
+print ()
 
 # DETERMINE THE WINNER
 
-#if user_input == computer_choice:
-       # print ("Both players chose", user_input, "You both win!")
+if user_input == computer_choice:
+    print ("Both players chose", user_input, "You both win!")
+    quit()
 
-       
+elif user_input == "rock":
+    if computer_choice == "scissors":
+        print ("Rock crushes scissors. You win!")
+    elif computer_choice == "paper":
+        print ("Paper covers rock. You lose.")
+elif user_input == "paper":
+    if computer_choice == "rock":
+        print ("Paper covers rock. You win!")
+    elif computer_choice == "scissors":
+        print ("Scissors cut paper. You lose!")
+elif user_input == "scissors":
+    if computer_choice == "paper":
+        print ("Scissors cut paper. You win!") 
+    elif computer_choice == "rock":
+        print ("Rock crushes scissors. You lose.")
 
-# FINAL RESULTS
+print ()
+
+# CLOSING STATEMENT
+
+print ("Thank you for playing! Please play again!")
+
+print ()
+quit()
