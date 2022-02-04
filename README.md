@@ -4,8 +4,6 @@ A Starter Repository for the [Rock Paper Scissors Exercise](https://github.com/p
 
 ## Setup
 
-### PLAYER_NAME="Jon Snow" python game.py
-
 Create a virtual environment:
 
 ```sh
