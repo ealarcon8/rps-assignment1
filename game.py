@@ -52,7 +52,7 @@ user_input = input("Please choose one of the following: 'Rock', 'Paper', or 'Sci
 
 print()
 
-# VALIDATIONS
+# INPUT VALIDATIONS
 
 if (user_input == "Rock"):
      print ("User chose:", user_input)

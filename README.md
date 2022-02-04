@@ -4,6 +4,8 @@ A Starter Repository for the [Rock Paper Scissors Exercise](https://github.com/p
 
 ## Setup
 
+### PLAYER_NAME="Jon Snow" python game.py
+
 Create a virtual environment:
 
 ```sh
@@ -28,6 +30,9 @@ Run the rock paper scissors game:
 
 ```sh
 python game.py
+
+Run the rock paper scissors game with custome name:
+PLAYER_NAME="Jon Snow" python game.py
 ```
 
 ## Testing

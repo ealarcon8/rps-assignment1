@@ -6,19 +6,23 @@
 # ... https://github.com/prof-rossetti/intro-to-python/blob/main/exercises/rock-paper-scissors/challenges.md
 #
 
-from game import determine_winner
+from game import validation
 
 
-def test_determination_of_the_winner():
+def test_validation():
 
-    assert determine_winner("rock", "rock") == None
-    assert determine_winner("rock", "paper") == "paper"
-    assert determine_winner("rock", "scissors") == "rock"
+    assert validation("rock", "rock") == None
+    assert validation("rock", "paper") == "paper"
+    assert validation("rock", "scissors") == "rock"
 
-    assert determine_winner("paper", "rock") == "paper"
-    assert determine_winner("paper", "paper") == None
-    assert determine_winner("paper", "scissors") == "scissors"
+    assert validation("paper", "rock") == "paper"
+    assert validation("paper", "paper") == None
+    assert validation("paper", "scissors") == "scissors"
 
-    assert determine_winner("scissors", "rock") == "rock"
-    assert determine_winner("scissors", "paper") == "scissors"
-    assert determine_winner("scissors", "scissors") == None
+    assert validation("scissors", "rock") == "rock"
+    assert validation("scissors", "paper") == "scissors"
+    assert validation("scissors", "scissors") == None
+
+def main():
+    test_validation()
+    main()
